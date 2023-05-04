@@ -1,6 +1,6 @@
-﻿using HealthFitnessBookingSystem.WebApp.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using HealthFitnessBookingSystem.WebApp.Models.ViewModels;
 
 namespace HealthFitnessBookingSystem.WebApp.Controllers
 {
