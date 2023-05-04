@@ -1,4 +1,4 @@
-namespace HealthFitnessBookingSystem.WebApp.Models
+namespace HealthFitnessBookingSystem.WebApp.Models.ViewModels
 {
     public class ErrorViewModel
     {
