@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HealthFitnessBookingSystem.WebApp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230507190559_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20230512092328_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

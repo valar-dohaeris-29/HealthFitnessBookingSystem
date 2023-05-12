@@ -9,5 +9,6 @@ namespace HealthFitnessBookingSystem.WebApp.Models.DomainModels
         public string ServiceDescription { get; set; }
         public decimal Rate { get; set; }
         public ICollection<Service> Services { get; set; }
+        public TimeSpan Duration { get; internal set; }
     }
 }
