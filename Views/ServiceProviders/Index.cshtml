@@ -1,0 +1,91 @@
+﻿@model IEnumerable<HealthFitnessBookingSystem.WebApp.Models.DomainModels.ServiceProviderViewModel>
+
+@{
+    ViewData["Title"] = "Service Providers";
+}
+
+
+<div class="container mt-3">
+    <h1>@ViewData["Title"]</h1>
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Service</th>
+            <th scope="col">Rate</th>
+            <th scope="col">Availability</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var serviceProvider in Model)
+        {
+            <tr>
+                <td>@serviceProvider.Name</td>
+                <td>@serviceProvider.ServiceDescription</td>
+@*                <td>@serviceProvider.CostPerService</td>
+                <td>@serviceProvider.AvailableDaysAndHours</td>*@
+                <td>
+                    <a asp-controller="ServiceProviders" asp-action="Edit" asp-route-id="@serviceProvider.Id" class="btn btn-sm btn-primary edit-button">Edit</a>
+                    <a asp-controller="ServiceProviders" asp-action="Delete" asp-route-id="@serviceProvider.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+<!-- Edit ServiceProvider Modal -->
+<div class="modal fade" id="editServiceProviderModal" tabindex="-1" role="dialog" aria-labelledby="editServiceProviderModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editServiceProviderModalLabel">Edit Service Provider</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editServiceProviderForm">
+                    <div class="form-group">
+                        <label for="serviceProviderName">Name</label>
+                        <input type="text" class="form-control" id="serviceProviderName" placeholder="Enter provider name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="serviceDescription">Service Description</label>
+                        <textarea class="form-control" id="serviceDescription" rows="3" placeholder="Enter service description" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="costPerService">Cost per Service</label>
+                        <input type="number" class="form-control" id="costPerService" placeholder="Enter cost per service" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="serviceDuration">Service Duration (in minutes)</label>
+                        <input type="number" class="form-control" id="serviceDuration" placeholder="Enter service duration" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="availableDaysAndHours">Available Days and Hours</label>
+                        <input type="text" class="form-control" id="availableDaysAndHours" placeholder="Enter available days and hours" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.edit-button').on('click', function (event) {
+                event.preventDefault();
+                var providerId = $(this).data('id');
+                // Load the service provider data using providerId and fill the form fields
+
+                // Show the modal
+                $('#editServiceProviderModal').modal('show');
+            });
+        });
+    </script>
+}

@@ -15,12 +15,64 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\monti\OneDrive\Documents\Projects\HealthFitnessBookingSystem.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Admin/AddServiceProvider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkU2VydmljZVByb3ZpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Admin/BookServiceForClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9va1NlcnZpY2VGb3JDbGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Admin/DeleteServiceProvider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlU2VydmljZVByb3ZpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Clients/BookingConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xCb29raW5nQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Clients/BookService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xCb29rU2VydmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/ServiceProviders/ConfirmBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVByb3ZpZGVyc1xDb25maXJtQm9va2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/ServiceProviders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVByb3ZpZGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/ServiceProviders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVByb3ZpZGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/ServiceProviders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVByb3ZpZGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/monti/OneDrive/Documents/Projects/HealthFitnessBookingSystem.WebApp/Views/Shared/Error.cshtml]
